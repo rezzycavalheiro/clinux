@@ -1,0 +1,38 @@
+#include <stdio.h>
+int main(void) {
+ 
+    int amount, i = 0, l = 0, count = 0, max;
+    scanf("%d", &amount);
+    int set[100];
+    char word[20];
+    scanf("&s", word);
+    int length[100];//length[5] number of 5-letter-long words in the text
+    for(i=0;i<100;i++){
+        length[i] = 0;
+    }
+    for(i=0;i<amount;i++){
+        scanf("%s", word);
+        l = 0;
+        while(word[l] != '\0'){
+            l++;
+        }
+        length[l] += 1;
+        count++;
+        set[i] = l;
+    }
+    printf("Array: ");
+    for(i=0;i<count;i++){
+        printf("%d ", set[i]);
+    }
+
+    max = set[0];
+    for(i=1;i<count;i++){
+        if(set[i] > max){
+            max = set[i];
+        }
+    }
+
+
+    printf("Largest: %d", max);
+    return 0;
+}
