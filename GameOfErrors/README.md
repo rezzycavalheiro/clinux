@@ -7,11 +7,12 @@ Please help us fix this code. Here is the program in question:
 
 #include <stdio.h>
 
-int main(void) {
-    printf ("This is code with errors: ")
-    printf "Fix them!";
-    return 0;
-}
+int main(void) { <br>
+    printf ("This is code with errors: ") <br>
+    printf "Fix them!"; <br>
+    return 0; <br>
+}<br>
+
 And here are the compiler error messages:
 
 /user-input:4:43: error: expected ';' after expression
