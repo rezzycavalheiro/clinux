@@ -11,9 +11,9 @@ sumOfDigits(645) = 5 + sumOfDigits(64)
 ...
 sumOfDigits(6) = 6
 ```
-Examples
-Input: 47253
-Output: 21
+Examples <br>
+Input: 47253 <br>
+Output: 21 <br>
 
-Input: 643
-Output: 13
+Input: 643 <br>
+Output: 13 <br>
