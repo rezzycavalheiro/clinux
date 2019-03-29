@@ -14,6 +14,6 @@ sumOfDigits(6) = 6
 Examples
 Input: 47253
 Output: 21
- 
+
 Input: 643
 Output: 13
