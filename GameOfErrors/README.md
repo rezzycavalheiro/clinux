@@ -18,6 +18,7 @@ int main(void) {
 
 And here are the compiler error messages:
 
+```c
 /user-input:4:43: error: expected ';' after expression
     printf ("This is code with errors : ")
                                           ^
@@ -32,3 +33,4 @@ And here are the compiler error messages:
 /user-input:5:12: warning: expression result unused
     printf "Fix them!";
           ^~~~~~~~~~~  
+ ```
