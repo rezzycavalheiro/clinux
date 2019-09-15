@@ -61,3 +61,19 @@ struct student *append(struct student * end, struct student * newStudptr){
     end = newStudptr;
     return (end);
 }
+
+void printStudent(struct student *start){
+    struct student * ptr = start;
+    while (ptr)
+}
+
+void printNumber(stuct digit *start){
+    //! heap=showMemory(start=277, cursors=[ptr,start])
+    struct digit * ptr = start;
+    while (ptr!=NULL) {
+        printf("%s", ptr->name);
+        printf("%d", ptr->age)
+        ptr = ptr->next;
+    }
+    printf("\n");
+}
